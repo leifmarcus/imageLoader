@@ -46,7 +46,7 @@ run the script like follows
 <pre><code>$('.image').imageLoader({settings})</code></pre>
 
 ## settings
-settings could setup the plugin to special needs
+the default settings are
 <pre>
 <code>startSize: 300,                 // smallest size
 stepSize:  300,                 // steps to go from smallest size
@@ -58,7 +58,7 @@ complete:  function(el, src){}  // triggers after new image is loaded
 ## Example
 Imagine the plugin should load images bigger than 200px (width or height, the biggest counts) and the steps should be 100px. You would render your image like follows:
 <pre>
-<code>&lt;img class="responsive" src="/img/image.jpg" data-s200="image.jpg" data-s300="image2.jpg" data-s500="image3.jpg" &gt;
+<code>&lt;img class="responsive" src="/img/image.jpg" data-s200="image.jpg" data-s300="image2.jpg" data-s400="image3.jpg" &gt;
 </code></pre>
 
 and the javascript like this
