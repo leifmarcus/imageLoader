@@ -16,7 +16,7 @@
             stepSize: 300,      /* the step size to the next image size */
             prefix: 'src',
             hideClass: 'hide',
-            path: '',
+            imgPath: '',
             complete: function(el, src) { return el; }
         }, options );
 
