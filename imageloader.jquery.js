@@ -58,7 +58,7 @@
                 }
             }
 
-            return settings.path + src;
+            return settings.imgPath + src;
         };
 
         var _handleWrapper = function(el) {
